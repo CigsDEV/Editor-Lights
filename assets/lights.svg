@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#ff004d"/>
+      <stop offset="0.166" stop-color="#ff8a00"/>
+      <stop offset="0.333" stop-color="#ffd300"/>
+      <stop offset="0.5"   stop-color="#00e436"/>
+      <stop offset="0.666" stop-color="#29adff"/>
+      <stop offset="0.833" stop-color="#7a00ff"/>
+      <stop offset="1"     stop-color="#ff77a8"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="46" font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-weight="800" font-size="48" fill="url(#g)">Lights!</text>
+</svg>
