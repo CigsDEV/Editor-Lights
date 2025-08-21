@@ -1,0 +1,11 @@
+[how to use]
+[ colorname: 'color name' | colorhex: 'ff0000' | colorsprite: 'OBJ_customcolor' ]
+[ your sprite name MUST contain OBJ_ and light for this to work properly! ]
+[ example: OBJ_glitchygreenlight.png ]
+
+'glitchygreen'|'0ee607'
+'deepblue'|'00008B'
+'sunsetorange'|'FF4500'
+'neonpink'|'FF6EC7'
+'midnightpurple'|'4B0082'
+'forestgreen'|'228B22'
