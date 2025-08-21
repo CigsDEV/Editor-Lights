@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 30">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#39ff14" flood-opacity="1" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="0" y="22"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="24" font-weight="700"
+        fill="#00e436"
+        filter="url(#glow)">
+    glows
+  </text>
+</svg>
