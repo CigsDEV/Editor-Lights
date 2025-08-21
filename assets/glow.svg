@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 30">
   <defs>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="100%">
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
 
       <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
       <feFlood flood-color="#39ff14" flood-opacity="1" result="color"/>
